@@ -190,3 +190,36 @@ a {
   padding-bottom: 20px;
 }
 
+/* Section Track */
+
+.track {
+  background-image: url("../images/track-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.track__inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.track__title {
+  margin-bottom: 30px;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.track__text {
+  max-width: 435px;
+}
+
+.track__img {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
